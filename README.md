@@ -7,7 +7,7 @@ Welcome to the spectacle of digital artistry where Python's magic intertwines wi
 Behold the technological enchantment where the arcane `shape_predictor_68_face_landmarks` model unveils the secrets of facial landmarks, weaving them into a masterpiece.
 
 ## 🌟 Behold the Transformation
-![Before & After Face Swap]([https://via.placeholder.com/468?text=Face+Swap+Showcase](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PboABpNcPI6eOXyfu1xPi79tD2mm_XiAmTkzftxbhw&s))
+![Before & After Face Swap](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PboABpNcPI6eOXyfu1xPi79tD2mm_XiAmTkzftxbhw&s)
 
 Before and after images live here, showcasing the power of our sorcery!
 
