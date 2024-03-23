@@ -1,62 +1,70 @@
-# face-swap-app# Face Swap Application using Python and openCV
+---
 
-This is a flask-based application where we can swap the face of two people and have some fun with it. The model used is shape_predictor_68_face_landmarks of both the faces uploaded which gives us the 68 points landmarks of the face as shown.
+# Python-Powered Face Swapping Extravaganza!
 
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PboABpNcPI6eOXyfu1xPi79tD2mm_XiAmTkzftxbhw&s)
+Welcome to the spectacle of digital artistry where Python's magic intertwines with openCV's prowess to bring you the ultimate Face Swap experience. Delve into our Flask-powered cauldron where faces are swapped, laughter is guaranteed, and everyone gets a taste of being someone else!
 
-## Source image and Destination Image
-<img src="images/dst_img.jpg">
-<img src="images/src_img.jpg">
+Behold the technological enchantment where the arcane `shape_predictor_68_face_landmarks` model unveils the secrets of facial landmarks, weaving them into a masterpiece.
 
-## Generated image
-![Image](image.jpg)
+## 🌟 Behold the Transformation
+![Before & After Face Swap](https://via.placeholder.com/468?text=Face+Swap+Showcase)
 
-later it marks the landmarks and swaps the faces with the destination image. It also can adjust if the face is sideways, color contrast, and the size of the image too.
+Before and after images live here, showcasing the power of our sorcery!
 
-## Steps Used
+### 🔄 Source of the Enchantment
+![Source](images/src_img.jpg)
 
-1. Taking two images – one as the source and another as a destination.
-2. Using the dlib landmark detector on both these images. 
-3. Joining the dots in the landmark detector to form triangles. 
-4. Extracting these triangles
-5. Create the mask using these triangles
-5. Replacing the mask of the source image with the destination image
-6. Smoothening the face
+### ✨ Destination of Wonders
+![Destination](images/dst_img.jpg)
 
+### 🎩 The Magical Outcome
+Marvel at the seamless transformation!
+![Generated Image](image.jpg)
 
-## 🧑‍💻 How to setup
-create fresh conda environment 
-```python
+In this alchemy of pixels, we:
+- Choose the visages to be swapped.
+- Summon the dlib landmark detector to chart the mystical points.
+- Connect the celestial dots, crafting triangular glyphs of power.
+- Extract these sigils and cast them upon the images.
+- Conjure the masks of identity swapping.
+- Enchant the source's guise onto the destination's countenance.
+- Polish the final visage to perfection.
+
+## 🚀 Launch Instructions
+
+Commence the incantation in your newly conjured Python environment:
+
+```bash
+# Conjure a fresh Python environment
 conda create -p venv python=3.7 -y
-```
-activate conda environment
-```python
+
+# Step into the realm of the virtual environment
 conda activate venv/
-```
-Install requirements
-```python
+
+# Bestow the necessary magical components
 pip install -r requirements.txt
-```
-Run the web app
-```python
+
+# Awaken the web apparition
 python app.py
 ```
-To launch swagger ui
-```python
+
+Seek the oracle's wisdom at:
+```
 http://localhost:5000/
 ```
 
-**<center> NOTE: upload the photos with frontal face. </center>**
+**<center>🌐 Pro Tip: Opt for portraits with the face to the fore for an enchanting swap!</center>**
 
-## 🧑‍💻 Tech Used
-1. computer vision
-2. dlib 
-3. openCV 
-4. Flask
+## 🛠️ Crafted with Mystical Tools
+- Computer Vision for seeing the unseen.
+- Dlib for the arcane arts of facial landmarks.
+- openCV for weaving pixel spells.
+- Flask for summoning web portals.
 
-## 🏭 Industrial Use-cases 
-1. Add effects to the photos
-2. Instagram and Snapchat filters
+## 💼 Enchantments for the Marketplace
+- Embellish portraits with mesmerizing effects.
+- Create spells akin to Instagram and Snapchat filters.
 
-## 👋 Conclusion
-We can create our own custom filter for the images and do our color grading using the cv2 library.
+## 🎤 Parting Words from the Mage
+Embark on a quest to infuse your images with enchantment, conjure your unique filters, and immerse in the sorcery of cv2!
+
